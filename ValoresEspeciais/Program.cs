@@ -38,6 +38,8 @@ namespace ValoresEspeciais
 
             double overflow_r2 = 2 * max_dou;
 
+            int i = short.MaxValue;
+
             Console.WriteLine("Max Values");
 
             Console.WriteLine("Int: {0}\nFloat: {1}", max_int, max_flo);
@@ -59,6 +61,8 @@ namespace ValoresEspeciais
             Console.WriteLine("{0}\n{1}", nothing, nothing_f);
 
             Console.WriteLine("{0}\n{1}",overflow_r1,overflow_r2);
+
+            Console.WriteLine((short) (i+1));
 
         }
     }

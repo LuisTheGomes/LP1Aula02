@@ -34,25 +34,31 @@ namespace ValoresEspeciais
 
             float nothing_f = float.NaN;
 
+            double overflow_r1 = max_dou + 1;
+
+            double overflow_r2 = 2 * max_dou;
+
             Console.WriteLine("Max Values");
 
-            Console.WriteLine("Int: {0}\nFloat: {1}",max_int,max_flo);
+            Console.WriteLine("Int: {0}\nFloat: {1}", max_int, max_flo);
 
-            Console.WriteLine("Double: {0}\nDecimal: {1}",max_dou,max_dec);
+            Console.WriteLine("Double: {0}\nDecimal: {1}", max_dou, max_dec);
 
             Console.WriteLine("Min Values");
 
-            Console.WriteLine("Int: {0}\nFloat: {1}",min_int,min_flo);
+            Console.WriteLine("Int: {0}\nFloat: {1}", min_int, min_flo);
 
-            Console.WriteLine("Double: {0}\nDecimal: {1}",min_dou,min_dec);
+            Console.WriteLine("Double: {0}\nDecimal: {1}", min_dou, min_dec);
 
             Console.WriteLine("Special Values");
 
-            Console.WriteLine("{0}\n{1}",infinity_plus,infinity_minus);
+            Console.WriteLine("{0}\n{1}", infinity_plus, infinity_minus);
 
-            Console.WriteLine("{0}\n{1}",floatinf_plus,floatinf_minus);
+            Console.WriteLine("{0}\n{1}", floatinf_plus, floatinf_minus);
 
-            Console.WriteLine("{0}\n{1}",nothing,nothing_f);
+            Console.WriteLine("{0}\n{1}", nothing, nothing_f);
+
+            Console.WriteLine("{0}\n{1}",overflow_r1,overflow_r2);
 
         }
     }

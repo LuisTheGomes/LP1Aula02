@@ -22,6 +22,18 @@ namespace ValoresEspeciais
 
             decimal min_dec = decimal.MinValue;
 
+            double infinity_plus = double.PositiveInfinity;
+
+            double infinity_minus = double.NegativeInfinity;
+
+            double nothing = double.NaN;
+
+            float floatinf_plus = float.PositiveInfinity;
+
+            float floatinf_minus = float.NegativeInfinity;
+
+            float nothing_f = float.NaN;
+
             Console.WriteLine("Max Values");
 
             Console.WriteLine("Int: {0}\nFloat: {1}",max_int,max_flo);
@@ -33,6 +45,14 @@ namespace ValoresEspeciais
             Console.WriteLine("Int: {0}\nFloat: {1}",min_int,min_flo);
 
             Console.WriteLine("Double: {0}\nDecimal: {1}",min_dou,min_dec);
+
+            Console.WriteLine("Special Values");
+
+            Console.WriteLine("{0}\n{1}",infinity_plus,infinity_minus);
+
+            Console.WriteLine("{0}\n{1}",floatinf_plus,floatinf_minus);
+
+            Console.WriteLine("{0}\n{1}",nothing,nothing_f);
 
         }
     }

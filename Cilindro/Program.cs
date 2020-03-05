@@ -14,15 +14,11 @@ namespace Cilindro
 
             int r = Convert.ToInt32(Console.ReadLine());
 
-            double pi = 3.1415926;
+            double V = Math.PI * Math.Pow(r, 2) * a;
 
-            double V = pi * Math.Pow(r, 2) * a;
-
-            double S = 2 * pi * r * (r + a);
+            double S = 2 * Math.PI * r * (r + a);
 
             Console.WriteLine("Volume: {0}\nArea de superficie: {1}", V, S);
-
-
 
         }
     }
